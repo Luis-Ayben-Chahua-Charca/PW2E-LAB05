@@ -1,0 +1,49 @@
+{% extends "./base.html" %}
+{% block body %}
+<div class ="row">
+        <div class="card">
+            <div class="card-body">
+                <form action="/registrar/" method="POST">{% csrf_token %}
+                    <div class="form-group">
+                        <input type="text" id="titulotxt" name="titulotxt" class="form-control" placeholder="titulo"
+                            maxlength="50" required>
+                    </div>
+		    <div class="form-group">
+			<textarea cols="40" rows="5" id="textotxt" name="textotxt" class="form-control" placeholder="texto"
+                            maxlength="500" required></textarea>
+
+                    </div>
+		    <div class="form-group">
+                        <input type="text" id="autortxt" name="autortxt" class="form-control" placeholder="autor"
+                          maxlength="50" required>
+                    </div>
+		    <div class="form-group">
+                       <button type ="submit" class="btn btn-success btn-block text-white">guardar</button>
+                    </div>
+<div class="table-responsive">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th> titulo </th>
+				<th> texto </th>
+				<th> autor</th>
+				<th> fecha de publicacion </th>
+				<th colspan="2"> opciones </th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for c in blog %}
+			<tr>
+                         <td>{{c.titulo}}</td>
+			 <td>{{c.texto}}</td>
+			 <td>{{c.autor}}</td>
+			 <td>{{c.fecha_de_cargar}}</td>
+			 <td><a href="modificar/{{c.titulo}}" class="btn btn-info">Editar</a></td>
+                         <td><a href="eliminar/{{c.titulo}}" class="btn btn-danger">Eliminar</a></td>
+			</tr>
+			{%endfor%}
+		</tbody>
+	</table>
+</div>
+</div>
+{% endblock %}
