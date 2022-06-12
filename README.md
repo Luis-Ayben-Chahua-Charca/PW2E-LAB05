@@ -488,8 +488,14 @@
 
 ## CUESTIONARIO
 -   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
+    Para python esta pep 008 - que se encarga de las normas de funciones, metodos, variables, clasesm sumas y saltos de liena entre otros.
 -   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?
+    pip es la forma mas basica de instalar extensiones, viene por defecto y te permite trabajar con extensiones propiar en entornos virtuales.
+    EasyInstall hace uso de envoltorios en los paquetes que reciben el nombre de Python Eggs que tambien sirven para encapsular proyectos enteros y comprobar que sus extensiones funcionen.
+    PyPM usa repositorios para la instalacion de paquetes y ademas es mas usado en ActivePython y no es gratis.
 -   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?
+    por ejemplo al utilizar editores que puedan generar carpetas adicionales como VScode se pueden añadir para ignorar
+    tambien archivos que contengan claves.
 -   Utilice ```python manage.py shell``` para agregar objetos. ¿Qué archivos se modificaron al agregar más objetos?
 
 #
