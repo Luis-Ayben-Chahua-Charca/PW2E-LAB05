@@ -522,13 +522,13 @@ Ademas para hacer que esta base de datos y su estructura funcionen se tiene que 
     Applying sessions.0001_initial... OK
     ```
 
-    finalmente para correrlo se hace uso de
+finalmente para correrlo se hace uso de
 
     ```sh
     python manage.py runserver
 
     ```
-    y correra mostrando un CRUD bastante basico donde se puede insertar libros y sus datos, con una descripcion.
+y correra mostrando un CRUD bastante basico donde se puede insertar libros y sus datos, con una descripcion.
 
     
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)<br>
