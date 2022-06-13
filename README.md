@@ -479,23 +479,31 @@
 #
 
 ## EJERCICIOS PROPUESTOS
--   Crea un blog sencillo en un entorno virtual utilizando la guía: https://tutorial.djangogirls.org/es/django_start_project/
--   Especificar paso a paso la creación del blog en su informe.
--   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)
--   Adjuntar URL del video en el informe.
+-   Crea un blog sencillo en un entorno virtual utilizando la guía: https://tutorial.djangogirls.org/es/django_start_project/<br>
+-   Especificar paso a paso la creación del blog en su informe.<br>
+    Para hacer la creacion y por ende el entorno virtual donde correra nuestro programa se crea el entorno que es individual por computador, en el cual se debe de habilitar django <br>
+
+    ```sh
+    (paginaWeb) E:\UNSA\UNSA 4to Semestre\Programacion web 2\Lab05-entorno> pip install django
+    ``` 
+    <br>
+    Para que este CRUD funcione correctamente se debe de
+
+-   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)<br>
+
+-   Adjuntar URL del video en el informe.<br>
 
 #
 
 ## CUESTIONARIO
--   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
-    Para python esta pep 008 - que se encarga de las normas de funciones, metodos, variables, clasesm sumas y saltos de liena entre otros.
--   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?
-    pip es la forma mas basica de instalar extensiones, viene por defecto y te permite trabajar con extensiones propiar en entornos virtuales.
-    EasyInstall hace uso de envoltorios en los paquetes que reciben el nombre de Python Eggs que tambien sirven para encapsular proyectos enteros y comprobar que sus extensiones funcionen.
-    PyPM usa repositorios para la instalacion de paquetes y ademas es mas usado en ActivePython y no es gratis.
--   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?
-    por ejemplo al utilizar editores que puedan generar carpetas adicionales como VScode se pueden añadir para ignorar
-    tambien archivos que contengan claves.
+-   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php<br>
+    Para python esta pep 008 - que se encarga de las normas de funciones, metodos, variables, clasesm sumas y saltos de liena entre otros.<br>
+-   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?<br>
+    pip es la forma mas basica de instalar extensiones, viene por defecto y te permite trabajar con extensiones propiar en entornos virtuales.<br>
+    EasyInstall hace uso de envoltorios en los paquetes que reciben el nombre de Python Eggs que tambien sirven para encapsular proyectos enteros y comprobar que sus extensiones funcionen.<br>
+    PyPM usa repositorios para la instalacion de paquetes y ademas es mas usado en ActivePython y no es gratis.<br>
+-   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?<br>
+    por ejemplo al utilizar editores que puedan generar carpetas adicionales como VScode se pueden añadir para ignorar, tambien archivos que contengan claves<br>.
 -   Utilice ```python manage.py shell``` para agregar objetos. ¿Qué archivos se modificaron al agregar más objetos?
 
 #
