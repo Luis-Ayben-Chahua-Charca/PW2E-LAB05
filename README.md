@@ -58,6 +58,13 @@
 </ul>
 </td>
 </<tr>
+<tr><td colspan="6">ALUMNOS:
+<ul>
+<li>Luis Ayben Chahua Charca - lchahua@unsa.edu.pe</li>
+<li>Luis Fernando Chambi Orozco - lchambio@unsa.edu.pe</li>   
+</ul>
+</td>
+</<tr>
 </tdbody>
 </table>
 
@@ -540,10 +547,14 @@ devuelve
 
     ```
 Si accedemos a la direccion nos muestra el CRUD indicado anteriormente
+
+![image](https://user-images.githubusercontent.com/91394363/173273227-036b3bcf-c78f-4d7d-93ec-0b95146a8386.png)
     
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)<br>
 
 -   Adjuntar URL del video en el informe.<br>
+
+Link del video : https://flipgrid.com/s/bTE8e6C5Sj2E 
 
 #
 
