@@ -481,13 +481,13 @@
 ## EJERCICIOS PROPUESTOS
 -   Crea un blog sencillo en un entorno virtual utilizando la guía: https://tutorial.djangogirls.org/es/django_start_project/<br>
 -   Especificar paso a paso la creación del blog en su informe.<br>
-    Para hacer la creacion y por ende el entorno virtual donde correra nuestro programa se crea el entorno que es individual por computador, en el cual se debe de habilitar django <br>
+Para hacer la creacion y por ende el entorno virtual donde correra nuestro programa se crea el entorno que es individual por computador, en el cual se debe de habilitar django <br>
 
     ```sh
     (paginaWeb) E:\UNSA\UNSA 4to Semestre\Programacion web 2\Lab05-entorno> pip install django
     ``` 
     
-Para que este CRUD funcione correctamente se debe de configurar una base de datos que almacene la informacion, por lo qu se utilizo la que venia de forma predeterminada para ahorrar tiempo 
+Para que este CRUD funcione correctamente se debe de configurar una base de datos que almacene la informacion, por lo que se utilizo la que venia de forma predeterminada para ahorrar tiempo 
 
     ```sh
     DATABASES = {
@@ -528,8 +528,18 @@ finalmente para correrlo se hace uso de
     python manage.py runserver
 
     ```
-y correra mostrando un CRUD bastante basico donde se puede insertar libros y sus datos, con una descripcion.
+y correra mostrando un CRUD bastante basico donde se puede insertar libros y sus datos, con una descripcion. 
+devuelve
 
+    ```sh
+    System check identified no issues (0 silenced).
+    June 12, 2022 - 22:03:59
+    Django version 4.0.5, using settings 'proyecto.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CTRL-BREAK.
+
+    ```
+Si accedemos a la direccion nos muestra el CRUD indicado anteriormente
     
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)<br>
 
