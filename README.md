@@ -486,9 +486,51 @@
     ```sh
     (paginaWeb) E:\UNSA\UNSA 4to Semestre\Programacion web 2\Lab05-entorno> pip install django
     ``` 
-    <br>
-    Para que este CRUD funcione correctamente se debe de
+    
+Para que este CRUD funcione correctamente se debe de configurar una base de datos que almacene la informacion, por lo qu se utilizo la que venia de forma predeterminada para ahorrar tiempo 
 
+    ```sh
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+    }
+    ``` 
+
+Ademas para hacer que esta base de datos y su estructura funcionen se tiene que migrar 
+
+    ```sh
+    (paginaWeb) ~/djangogirls$ python manage.py migrate
+    Operations to perform:
+    Apply all migrations: auth, admin, contenttypes, sessions
+    Running migrations:
+    Rendering model states... DONE
+    Applying contenttypes.0001_initial... OK
+    Applying auth.0001_initial... OK
+    Applying admin.0001_initial... OK
+    Applying admin.0002_logentry_remove_auto_add... OK
+    Applying contenttypes.0002_remove_content_type_name... OK
+    Applying auth.0002_alter_permission_name_max_length... OK
+    Applying auth.0003_alter_user_email_max_length... OK
+    Applying auth.0004_alter_user_username_opts... OK
+    Applying auth.0005_alter_user_last_login_null... OK
+    Applying auth.0006_require_contenttypes_0002... OK
+    Applying auth.0007_alter_validators_add_error_messages... OK
+    Applying auth.0008_alter_user_username_max_length... OK
+    Applying auth.0009_alter_user_last_name_max_length... OK
+    Applying sessions.0001_initial... OK
+    ```
+
+    finalmente para correrlo se hace uso de
+
+    ```sh
+    python manage.py runserver
+
+    ```
+    y correra mostrando un CRUD bastante basico donde se puede insertar libros y sus datos, con una descripcion.
+
+    
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)<br>
 
 -   Adjuntar URL del video en el informe.<br>
