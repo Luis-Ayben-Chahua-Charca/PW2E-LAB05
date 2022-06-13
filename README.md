@@ -555,6 +555,7 @@ Si accedemos a la direccion nos muestra el CRUD indicado anteriormente
 -   Adjuntar URL del video en el informe.<br>
 
 Link del video : https://flipgrid.com/s/bTE8e6C5Sj2E 
+Se recomienda escucharlo a volumen alto pues existieron problemas durante la grabacion, muchas gracias!
 
 #
 
